@@ -33,5 +33,38 @@
         <file>fonts/Lato-Bold.ttf</file>
         <file>fonts/Lato-Regular.ttf</file>
         <file>Style.qml</file>
+        <file>assets/icons/1.png</file>
+        <file>assets/icons/2.png</file>
+        <file>assets/icons/3.png</file>
+        <file>assets/icons/4.png</file>
+        <file>assets/icons/5.png</file>
+        <file>assets/icons/airdrop.svg</file>
+        <file>assets/icons/drop.svg</file>
+        <file>assets/icons/electricity.svg</file>
+        <file>assets/icons/fault.svg</file>
+        <file>assets/icons/faultindi.svg</file>
+        <file>assets/icons/flash.svg</file>
+        <file>assets/icons/keyboard.svg</file>
+        <file>assets/icons/keyboard-open.svg</file>
+        <file>assets/icons/monitor.svg</file>
+        <file>assets/icons/moon.svg</file>
+        <file>assets/icons/Rectangle 11.png</file>
+        <file>assets/icons/Rectangle 11.svg</file>
+        <file>assets/icons/Rectangle 13.png</file>
+        <file>assets/icons/sliderToolTip.svg</file>
+        <file>assets/icons/speaker.jpg</file>
+        <file>assets/icons/speaker.svg</file>
+        <file>assets/icons/sun 2.svg</file>
+        <file>assets/icons/sun.svg</file>
+        <file>assets/icons/wind.svg</file>
+        <file>assets/new icons/1786492-01 1.png</file>
+        <file>assets/new icons/AC.png</file>
+        <file>assets/new icons/AC.svg</file>
+        <file>assets/new icons/AMZ030101-main 1.png</file>
+        <file>assets/new icons/image 1.png</file>
+        <file>assets/new icons/Lights.svg</file>
+        <file>assets/new icons/pngegg 2.svg</file>
+        <file>assets/new icons/pngwing 1.svg</file>
+        <file>assets/new icons/sensor.png</file>
     </qresource>
 </RCC>
