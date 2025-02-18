@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Custom/CCTVTile.qml</file>
+        <file>Custom/CircularSlider.qml</file>
+        <file>Custom/CustumPrefsLabelSelector.qml</file>
+        <file>Custom/DevicesTile.qml</file>
+        <file>Custom/EffectButton.qml</file>
+        <file>Custom/IconImage.qml</file>
+        <file>Custom/IconLabel.qml</file>
+        <file>Custom/ImageButton.qml</file>
+        <file>Custom/LeftPane.qml</file>
+        <file>Custom/LightingTile.qml</file>
+        <file>Custom/MiddlePane.qml</file>
+        <file>Custom/MiddlePaneWidget.qml</file>
+        <file>Custom/OutlinedButtonWithicon.qml</file>
+        <file>Custom/OutlinedLabel.qml</file>
+        <file>Custom/PrefsCircularProgressBar.qml</file>
+        <file>Custom/PrefsLabel.qml</file>
+        <file>Custom/PrefsLabelSelector.qml</file>
+        <file>Custom/PrefsProgressBar.qml</file>
+        <file>Custom/PrefsSlider.qml</file>
+        <file>Custom/PrefsSwitch.qml</file>
+        <file>Custom/PrefsTabButton.qml</file>
+        <file>Custom/RightPane.qml</file>
+        <file>Custom/RightPaneLightSwitchComponent.qml</file>
+        <file>Custom/RoundRectangle.qml</file>
+        <file>Custom/Tile.qml</file>
+        <file>Custom/TimeShow.qml</file>
+        <file>Custom/WizardStepper.qml</file>
+        <file>fonts/CodecPro-Italic.ttf</file>
+        <file>fonts/CodecPro-Regular.ttf</file>
+        <file>fonts/fontawesome.otf</file>
+        <file>fonts/Lato-Bold.ttf</file>
+        <file>fonts/Lato-Regular.ttf</file>
+        <file>Style.qml</file>
+    </qresource>
+</RCC>
