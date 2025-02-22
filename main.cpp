@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    const QUrl style(QStringLiteral("qrc:/Style.qml"));
-    qmlRegisterSingletonType(style, "Style", 1, 0, "Style");
+    // const QUrl style(QStringLiteral("qrc:/Style.qml"));
+    // qmlRegisterSingletonType(style, "Style", 1, 0, "Style");
 
 
     QObject::connect(

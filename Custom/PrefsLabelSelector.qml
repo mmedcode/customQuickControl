@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
 import QtQuick.Controls.impl
-import Style 1.0
+// import Style 1.0
 import "."
 import ".."
 Pane{

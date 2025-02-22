@@ -1,7 +1,7 @@
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import Style
+// import Style
 
 import "Custom"
 

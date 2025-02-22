@@ -16,23 +16,20 @@ qt_add_executable(appcustomQuickControl
      Resources.qrc
 )
 
-set_source_files_properties(Style.qml
-    PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
+set_source_files_properties(Style.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
+
 
 qt_add_qml_module(appcustomQuickControl
     URI customQuickControl
     VERSION 1.0
     QML_FILES
         Main.qml
-        QML_FILES LabDelegate.qml ShadowRectangle.qml RightDrawer.qml BottomDrawer.qml RightSideDrawerDelegate.qml  Style.qml
+        QML_FILES LabDelegate.qml ShadowRectangle.qml  Style.qml
 
         RESOURCES
-            Custom/CCTVTile.qml Custom/CircularSlider.qml Custom/CustumPrefsLabelSelector.qml Custom/DevicesTile.qml Custom/EffectButton.qml Custom/IconImage.qml
-            Custom/IconLabel.qml Custom/ImageButton.qml Custom/LeftPane.qml Custom/LightingTile.qml Custom/MiddlePane.qml Custom/MiddlePaneWidget.qml Custom/OutlinedButtonWithicon.qml
-            Custom/OutlinedLabel.qml Custom/PrefsCircularProgressBar.qml Custom/PrefsLabel.qml Custom/PrefsLabelSelector.qml Custom/PrefsProgressBar.qml Custom/PrefsSlider.qml
-            Custom/PrefsSwitch.qml Custom/PrefsTabButton.qml Custom/RightPane.qml Custom/RightPaneLightSwitchComponent.qml Custom/RoundRectangle.qml Custom/Tile.qml
-            Custom/TimeShow.qml Custom/WizardStepper.qml
+            Custom/IconLabel.qml Custom/OutlinedLabel.qml Custom/PrefsLabelSelector.qml Custom/PrefsTabButton.qml
         RESOURCE_PREFIX /
+        RESOURCES qmldir
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -1,9 +1,9 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.5
-import QtQuick.Controls.impl 2.12 as Impl
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.impl  as Impl
 import QtQuick.Layouts
 
-import Style 1.0
+// import Style 1.0
 
 import "."
 Button {
