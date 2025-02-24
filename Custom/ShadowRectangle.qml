@@ -29,13 +29,4 @@ Pane {
             source: backgroundID
         }
     }
-
-    Component.onCompleted: {
-        console.log("***************************************************************** Hello from QML!" +  Style.fontawesomefont +  "            ********" + Style.fontawesome + "******");
-        console.log("🔥 Debug: Font name from FontLoader:", Style.fontawesome.name);
-        var resourcePath = Qt.resolvedUrl("fonts/fontawesome.otf");
-
-        // Log the resolved path
-        console.log("Resource path:", resourcePath);
-    }
 }

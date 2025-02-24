@@ -18,13 +18,8 @@ ApplicationWindow {
     visible: true
     color: Style.background
     title: qsTr("Home Automation")
-    property FontLoader fontawesome: FontLoader{
-        source: "qrc:/fonts/fontawesome.otf"
-    }
 
     Component.onCompleted: {
-        console.log("maaaaaaiinnnn Hello from QML!" +  fontawesome.name +  "            ********" );
-
     }
 
     ColumnLayout {

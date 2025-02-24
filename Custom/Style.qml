@@ -30,20 +30,6 @@ QtObject {
         source: "qrc:/Custom/fonts/fontawesome.otf"
     }
 
-    // property   FontLoader fontawesome:  FontLoader{
-    //     id: fontawesome
-    //     source: "qrc:/fonts/fontawesome.otf"
-    //     onStatusChanged: {
-    //         if (status === FontLoader.Failed) {
-    //             console.log("sdzddddddddddddddddddddddddddddddddFailed to load FontAwesome font.");
-    //         }
-    //         else {
-    //             console.log("*********************yeeeeeeeeesssssssss");
-    //         }
-    //     }
-    // }
-
-
     function alphaColor(color, alpha) {
         let actualColor = Qt.darker(color, 1)
         actualColor.a = alpha
