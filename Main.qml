@@ -2,13 +2,13 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Material
 
-// import Style 1.0
+import Custom
 
-import customQuickControl
+// import customQuickControl
 
 // import "qrc:/Custom"
 // import Components
-import "Custom"
+// import Style 1.0
 
 
 ApplicationWindow {
@@ -18,9 +18,13 @@ ApplicationWindow {
     visible: true
     color: Style.background
     title: qsTr("Home Automation")
-
+    property FontLoader fontawesome: FontLoader{
+        source: "qrc:/fonts/fontawesome.otf"
+    }
 
     Component.onCompleted: {
+        console.log("maaaaaaiinnnn Hello from QML!" +  fontawesome.name +  "            ********" );
+
     }
 
     ColumnLayout {

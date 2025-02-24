@@ -14,7 +14,6 @@ QtObject {
     readonly property color yellowLight: "#e29155"
     readonly property color iconColor: "#4a4a4a"
 
-
     property color textColor: "#FFFFFF"
     property color charcoalGrey: "#404040"
     property color granite: "#808080"
@@ -28,8 +27,22 @@ QtObject {
 
     property var fontawesomefont: fontawesome.name
     property FontLoader fontawesome: FontLoader{
-        source: "qrc:/fonts/fontawesome.otf"
+        source: "qrc:/Custom/fonts/fontawesome.otf"
     }
+
+    // property   FontLoader fontawesome:  FontLoader{
+    //     id: fontawesome
+    //     source: "qrc:/fonts/fontawesome.otf"
+    //     onStatusChanged: {
+    //         if (status === FontLoader.Failed) {
+    //             console.log("sdzddddddddddddddddddddddddddddddddFailed to load FontAwesome font.");
+    //         }
+    //         else {
+    //             console.log("*********************yeeeeeeeeesssssssss");
+    //         }
+    //     }
+    // }
+
 
     function alphaColor(color, alpha) {
         let actualColor = Qt.darker(color, 1)

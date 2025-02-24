@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     // const QUrl style(QStringLiteral("qrc:/Style.qml"));
     // qmlRegisterSingletonType(style, "Style", 1, 0, "Style");
 
+    // engine.addImportPath("qrc:/");
 
     QObject::connect(
         &engine,
@@ -18,6 +19,9 @@ int main(int argc, char *argv[])
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.loadFromModule("customQuickControl", "Main");
+
+    // engine.addImportPath(":/");
+    // engine.load(url);
 
     return app.exec();
 }

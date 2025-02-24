@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 // import Style 1.0
-import customQuickControl
+// import customQuickControl
 
 Label {
     property real size: 24

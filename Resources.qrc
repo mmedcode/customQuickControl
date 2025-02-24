@@ -1,11 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>Custom/IconLabel.qml</file>
-        <file>Custom/OutlinedLabel.qml</file>
-        <file>Custom/PrefsLabelSelector.qml</file>
-        <file>Custom/PrefsTabButton.qml</file>
-        <file>Style.qml</file>
-        <file>qmldir</file>
         <file>fonts/fontawesome.otf</file>
     </qresource>
 </RCC>

@@ -2,9 +2,9 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
 import QtQuick.Controls.impl
-// import Style 1.0
+
 import "."
-import ".."
+
 Pane{
     id:control
     property real radius: 4
@@ -104,7 +104,7 @@ Pane{
                             icon: modelData
                             size: 18
                             color: labelIndicator.checked ? Style.black : Style.iconColor
-                            appicon: control.appicon
+                            // appicon: control.appicon
                         }
                     }
                 }

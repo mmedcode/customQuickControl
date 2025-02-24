@@ -3,9 +3,6 @@ import QtQuick.Controls
 import QtQuick.Controls.impl  as Impl
 import QtQuick.Layouts
 
-// import Style 1.0
-
-import "."
 Button {
     id: control
 

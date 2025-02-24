@@ -4,7 +4,6 @@ project(customQuickControl VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_AUTORCC ON)
 
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
@@ -13,24 +12,17 @@ qt_standard_project_setup(REQUIRES 6.5)
 
 qt_add_executable(appcustomQuickControl
     main.cpp
-     Resources.qrc
 )
-
-set_source_files_properties(Style.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
-
 
 qt_add_qml_module(appcustomQuickControl
     URI customQuickControl
     VERSION 1.0
     QML_FILES
         Main.qml
-        QML_FILES LabDelegate.qml ShadowRectangle.qml  Style.qml
-
-        RESOURCES
-            Custom/IconLabel.qml Custom/OutlinedLabel.qml Custom/PrefsLabelSelector.qml Custom/PrefsTabButton.qml
-        RESOURCE_PREFIX /
-        RESOURCES qmldir
+        RESOURCES resources.qrc
 )
+
+add_subdirectory(Custom)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
@@ -44,7 +36,7 @@ set_target_properties(appcustomQuickControl PROPERTIES
 )
 
 target_link_libraries(appcustomQuickControl
-    PRIVATE Qt6::Quick
+    PRIVATE Qt6::Quick CustomLibplugin
 )
 
 include(GNUInstallDirs)
